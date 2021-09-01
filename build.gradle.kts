@@ -20,3 +20,7 @@ tasks.withType<KotlinCompile> {
 application {
     mainClass.set("com.example.server.MainKt")
 }
+
+dependencies {
+    implementation("com.github.raf-br-jitpack.model:model:11a572bc51")
+}
